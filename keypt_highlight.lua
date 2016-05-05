@@ -61,7 +61,7 @@ end
 -- close key points file
 keypoints:close()
 
--- 
+-- iterate through all images
 for i = 1, images:size(1) do
 	images[i] = image_kpts(images[i],i-1)
 end
